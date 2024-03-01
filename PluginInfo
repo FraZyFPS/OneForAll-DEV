@@ -1,0 +1,4 @@
+Plugin_GUID: "FraZyFPS/OneForAll"
+Plugin_NAME: "OneForAll"
+Plugin_Version: "V1.0.4"
+Plugin_Dependencies: "BepInEx-BepInExPack-5.4.2100"
