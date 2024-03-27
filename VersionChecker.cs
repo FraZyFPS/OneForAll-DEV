@@ -32,7 +32,7 @@ namespace OneForAll.MiniMap
         public static async Task GetLatestVersionAsync()
         {
             string mainUrl = "https://FraZyFPS.OneForAll.com";
-            string fallbackUrl = "https://api.github.com/FraZyFPS/OneForAll/releases/tag/v1.0.4";
+            string fallbackUrl = "https://github.com/FraZyFPS/OneForAll-DEV/releases/latest";
             if (await VersionChecker.GetVersionFromUrlAsync(mainUrl))
             {
                 mainUrl = null;
